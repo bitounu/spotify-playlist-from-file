@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# check if credentials file is in same folder
 if [ ! -f ./creds ]; then
         echo "Ceredentials not found!"
 else
